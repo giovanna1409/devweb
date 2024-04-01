@@ -1,0 +1,93 @@
+@charset "utf-8";
+/* estilo_cv.css, definicao de estilo
+   para cv_stilo.html
+   Para nomes padronizados de cores em HTML consulte:
+   https://www.w3schools.com/colors/colors_names.asp
+*/
+
+.forming {
+    margin-top:0px;
+    margin-left:20px;
+    margin-right: 20px;
+    text-align: left;
+    padding:0px;
+    border:none;
+    width:auto;
+    display:inherit;
+}
+
+body {
+  /*background-color: #333;
+  color: #fff;*/
+  font-family: Helvetica;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+
+nav {
+  background-color: AliceBlue;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  border-bottom: 2px solid DeepSkyBlue;
+}
+
+nav h1 {
+  color: DimGray;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  align-items: center;
+}
+
+nav ul li {
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: Navy;
+}
+
+div h3{
+  display: flex;
+  align-items: left;
+  margin-left: 10px;
+  border-bottom: 2px solid AliceBlue;
+  font-variant:small-caps;
+}
+
+div {
+  margin-bottom: 50px;
+}
+
+div ul {
+  display: flex;
+  list-style: none;
+  justify: left;
+  font-weight: lighter;
+  justify-content:flex-start;
+  padding-right: 5px;
+}
+
+div ul li{
+  padding: 5px;
+}
+
+div p {
+  margin-left:20px;
+  margin-right: 20px;
+  text-align: left;
+}
+
+footer {
+  height:40px;
+  margin-left:10px;
+  background-color: AliceBlue;
+  border-top: 2px solid DeepSkyBlue;
+  text-align: left;
+  display: flex;
+  align-items: center;
+}

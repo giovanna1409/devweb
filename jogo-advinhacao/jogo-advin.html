@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Jogo da Advinhação</title>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+</head>
+
+<body>
+    <h3>Jogo da Advinhação</h3>
+
+    <p>
+        O sistema selecionou um número entre 1 e 100. Você tem 10 chances
+        para acertar qual é esse número. O sistema avisará se a sua escolha
+        for maior ou menor que o número escolhido.
+    </p>
+
+    <div class="form">
+        <label for="escolha">Escolha um número: </label>
+        <input type="text" id="escolha" class="escolha">
+        <input type="submit" value="Enviar" class="escolhaEnviada">
+    </div>
+
+    <div class="avisos">
+        <p class="parEscolha"></p>
+        <p class="parUltimo"></p>
+        <p class="menorMaior"></p>
+    </div>
+
+    <script src="jogo-advin.js" defer></script>
+    <h3>Fora do teste!</h3>
+
+</body>
+
+</html>
